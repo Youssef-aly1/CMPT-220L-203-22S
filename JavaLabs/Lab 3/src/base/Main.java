@@ -15,13 +15,13 @@ public class Main {
     public static void main(String[] args) {
         // Make an if statement that triggers a print or println statement
         if (true) {
-            System.out.println("yo.");
+            System.out.println("Hello Professor");
         }
         // Make an if, else statement where the else statement triggers a print or println statement
         if (true) {
-            System.out.println("hello");
+            System.out.println("nothing");
         } else{
-            System.out.println("this is java");
+            System.out.println("hello");
         }
         // Make an if, else if, else statement where the else if statement triggers a print or println statement
         if (true) {
@@ -30,14 +30,24 @@ public class Main {
             System.out.println("This is false");
         }
         // Make 2 variables and use them in an if else conditional print from one of the sections
-        boolean skill = true;
+        String skill = "you have a lot of skill";
         boolean aim = false;
-        if (skill){
-            System.out.println("You have skill");
+        if (!aim){
+            System.out.println(skill);
         } else{
             System.out.println("You don't have skill");
         }
         // Make an if statement using 2 variables and an AND(&&) statement that triggers a print or println statement
+        boolean macaroni = true;
+        boolean cheese = true;
+        if ((macaroni) && cheese) {
+            System.out.println("I can make mac and cheese!");
+        }
         // Make an if statement using 2 variables and an OR(||) statement that triggers a print or println statement
+        boolean apple = true;
+        boolean orange = false;
+        if (apple || orange) {
+            System.out.println("I can enjoy some fruit");
+        }
     }
 }
