@@ -1,0 +1,20 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ˆ±àûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ë¹¯šüÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(£ÆÏÁ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ù±ô
+B
+java:S1125"'Remove the unnecessary boolean literal.(ªâÄûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(÷©Ó
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(­öéÜ
+N	java:S106&"9Replace this use of System.out or System.err by a logger.(­§¸
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(×ÂÓıÿÿÿÿ
+M	java:S1062"9Replace this use of System.out or System.err by a logger.(¾ñô}
+T
+java:S2589+"7Remove this expression which always evaluates to "true"(âåÅ€8§èœ±î/
+T
+java:S2589+"7Remove this expression which always evaluates to "true"(âåÅ€8úŞ±î/
+R
+java:S25891"7Remove this expression which always evaluates to "true"(ÅıŸáşÿÿÿÿ
+Y
+java:S2583#"CChange this condition so that it does not always evaluate to "true"(§ÛÖ
