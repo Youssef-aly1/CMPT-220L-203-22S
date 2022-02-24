@@ -1,0 +1,16 @@
+
+y
+java:S3008"^Rename this field "lemonades_available" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ç»‹øÿÿÿÿ
+r
+java:S3008"]Rename this field "pretzels_available" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ‡f
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(à„Ò‚şÿÿÿÿ
+U	java:S1060"9Replace this use of System.out or System.err by a logger.(š§âŒ8§…¬íò/
+Z	java:S1061"9Replace this use of System.out or System.err by a logger.(¼ßüÿÿÿÿ8§…¬íò/
+Z	java:S1062"9Replace this use of System.out or System.err by a logger.(é´¼èøÿÿÿÿ8¨…¬íò/
+U	java:S1063"9Replace this use of System.out or System.err by a logger.(¦¼Š™8¨…¬íò/
+c	java:S1006"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öòÔ
+T	java:S106<"9Replace this use of System.out or System.err by a logger.(ÉĞ?8©…¬íò/
+b	java:S100?"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—µüI
+f	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öòÔ
+f	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öòÔ
+f	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öòÔ
