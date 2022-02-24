@@ -29,11 +29,35 @@ public class Main {
 
     public static void main(String[] args) {
         //	Replace this with your dry inventory function!
-        wet_inventory();
+        dry_inventory(1,4,1,4);
+        dry_inventory(2,2,3,0);
+        dry_inventory(3,3,0,0);
+        dry_inventory(4,1,2,0);
+        dry_inventory(5,0,6,10);
+        dry_inventory(6,0,4,5);
+        dry_inventory(7,2,0,0);
+        dry_inventory(8,10,8,10);
+        dry_inventory(9,6,0,0);
+        dry_inventory(10,0,1,0);
+        dry_inventory(11,1,0,0);
+        dry_inventory(12,0,7,4);
+        dry_inventory(13,2,0,0);
+        dry_inventory(14,6,3,0);
+        dry_inventory(15,9,2,3);
+        System.out.println("Results for the hour!");
+        System.out.println("Lemonades Inventory: " + lemonades_available);
+        System.out.println("Pretzels Inventory: " + pretzels_available);
+        System.out.println("Cash: " + cash);
+        System.out.println("Tips: " + tips);
     }
 
-    static void dry_inventory() {
-        // Your DRY Solution goes here!
+    static void dry_inventory(int customer_num,int num_pretzels, int num_lem, int tip) {
+        pretzels_available -= num_pretzels;
+        cash += num_pretzels*2;
+        lemonades_available -= num_lem;
+        cash += num_lem*8;
+        tips += tip;
+        System.out.println("Customer number"+customer_num);
     }
 
     static void wet_inventory() {
@@ -41,89 +65,7 @@ public class Main {
          * We have 10 customers in the first hour! This is what they bought! When running this with your dry code you
          * don't want to run this function because then the numbers in the end will be wrong!
          */
-        //Customer 1
-        pretzels_available -= 4;
-        cash += 8;
-        lemonades_available -= 1;
-        cash += 8;
-        tips += 4;
-
-        //Customer 2
-        pretzels_available -= 2;
-        cash += 4;
-        lemonades_available -= 3;
-        cash += 24;
-
-        //Customer 3
-        pretzels_available -= 3;
-        cash += 6;
-
-        //Customer 4
-        pretzels_available -= 1;
-        cash += 2;
-        lemonades_available -= 2;
-        cash += 16;
-
-        //Customer 5
-        lemonades_available -= 6;
-        cash += 48;
-        tips += 10;
-
-        //Customer 6
-        lemonades_available -= 4;
-        cash += 32;
-        tips += 5;
-
-        //Customer 7
-        pretzels_available -= 2;
-        cash += 4;
-
-        //Customer 8
-        pretzels_available -= 10;
-        cash += 20;
-        lemonades_available -= 8;
-        cash += 64;
-        tips += 10;
 
 
-        //Customer 9
-        pretzels_available -= 6;
-        cash += 12;
-
-        //Customer 10
-        lemonades_available -= 1;
-        cash += 8;
-
-        //Customer 11
-        pretzels_available -= 1;
-        cash += 2;
-
-        //Customer 12
-        lemonades_available -= 7;
-        cash += 56;
-        tips += 4;
-
-        //Customer 13
-        pretzels_available -= 2;
-        cash += 4;
-
-        //Customer 14
-        pretzels_available -= 6;
-        cash += 12;
-        lemonades_available -= 3;
-        cash += 24;
-
-        //Customer 15
-        pretzels_available -= 9;
-        cash += 18;
-        lemonades_available -= 2;
-        cash += 16;
-        tips += 3;
-
-        System.out.println("Results for the hour!");
-        System.out.println("Lemonades Inventory: " + lemonades_available);
-        System.out.println("Pretzels Inventory: " + pretzels_available);
-        System.out.println("Cash: " + cash);
-        System.out.println("Tips: " + tips);
     }
 }

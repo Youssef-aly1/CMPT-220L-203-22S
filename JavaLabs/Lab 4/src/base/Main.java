@@ -69,8 +69,11 @@ public class Main {
      */
     int array_count (int[] list, int num) {
         int count = 0;
-        for (  int nums: list) {
-            count++;
+        for (int nums: list) {
+             {
+                count++;
+            }
+
             System.out.println(count);
         }
         return count;
@@ -107,7 +110,7 @@ public class Main {
         System.out.println(D);
         return D;
     }
-    
+
 
     double addition(double a, double b) {
         double answer = a + b;

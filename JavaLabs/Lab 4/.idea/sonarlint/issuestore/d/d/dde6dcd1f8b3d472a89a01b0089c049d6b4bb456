@@ -1,0 +1,32 @@
+
+<	java:S131""Add a default case to this switch.(™æñÄûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(—„Þœ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Î‡©¦þÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(•ÔãÓÿÿÿÿÿ
+M	java:S106!"9Replace this use of System.out or System.err by a logger.(–à¼]
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(ôð¿·ùÿÿÿÿ
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(Û¥Þÿÿÿÿÿ
+D
+java:S2140-")Use "java.util.Random.nextInt()" instead.(¬€“úûÿÿÿÿ
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(§îšß
+M	java:S1063"9Replace this use of System.out or System.err by a logger.(™º…k
+h	java:S100F"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€”•ïúÿÿÿÿ
+E
+java:S1172F"*Remove this unused method parameter "num".(€”•ïúÿÿÿÿ
+D
+java:S1481H")Remove this unused "nums" local variable.(ê²ž–üÿÿÿÿ
+S	java:S106M"9Replace this use of System.out or System.err by a logger.(Ž³ð¸ûÿÿÿÿ
+N	java:S106["9Replace this use of System.out or System.err by a logger.(‚¨Ö§
+N	java:S106n"9Replace this use of System.out or System.err by a logger.(á¤™ù
+f	java:S117j"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô­áË
+k	java:S117k"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î­þçûÿÿÿÿ
+f	java:S117l"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÞâó
+f	java:S117m"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÐÌý‚
+y
+java:S1488="^Immediately return this expression instead of assigning it to the temporary variable "answer".(àæ¤ýÿÿÿÿ
+y
+java:S1488t"^Immediately return this expression instead of assigning it to the temporary variable "answer".(¯ìü¶ÿÿÿÿÿ
+y
+java:S1488y"^Immediately return this expression instead of assigning it to the temporary variable "answer".(Ýí ªùÿÿÿÿ
+H
+java:S1199I"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
