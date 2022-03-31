@@ -1,0 +1,21 @@
+
+E
+java:S3740&"/Provide the parametrized type for this generic.(î±êï
+k
+java:S1149;"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(·ìÅéøÿÿÿÿ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(–¾İ—şÿÿÿÿ
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(¢ÿšç
+N	java:S106'"9Replace this use of System.out or System.err by a logger.(úéõ¯
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(ËïÛÿÿÿÿÿ
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(¤ïö
+S	java:S1069"9Replace this use of System.out or System.err by a logger.(˜ÿÇÏúÿÿÿÿ
+S	java:S106B"9Replace this use of System.out or System.err by a logger.(‰É†şÿÿÿÿ
+s	java:S116G"YRename this field "Scientificname" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îóÁøÿÿÿÿ
+t
+java:S2293,"YReplace the type specification in this constructor call with the diamond operator ("<>").(êìîĞşÿÿÿÿ
+t
+java:S22933"YReplace the type specification in this constructor call with the diamond operator ("<>").(‘âÔ—ûÿÿÿÿ
+t
+java:S2293;"YReplace the type specification in this constructor call with the diamond operator ("<>").(·ìÅéøÿÿÿÿ
+f	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î±êï
+k	java:S1173"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘âÔ—ûÿÿÿÿ
