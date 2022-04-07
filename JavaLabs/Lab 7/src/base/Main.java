@@ -4,10 +4,13 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-        Listitem a = new ListItem(null);
-        Listitem b = new ListItem(a);
-        Listitem c = new ListItem(b);
-        Listitem d = new ListItem(c);
+    Node first = new Node(1);
+    Node second = new Node(2);
+    Node third = new Node(3);
+
+    first.nextnode = second;
+    second.nextnode = third;
+
 
 
     }

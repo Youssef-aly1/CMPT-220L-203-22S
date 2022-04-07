@@ -1,9 +1,11 @@
 package base;
 
-public class ListItem {
-    private Listitem listitem;
-    public ListItem(Listitem listitem){
-        this.listitem = listitem;
+public class Node {
+    int value;
+    Node nextnode;
+    public Node(int value){
+        this.value = value;
+        this.nextnode = null;
 
     }
 }
